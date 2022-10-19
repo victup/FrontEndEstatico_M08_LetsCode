@@ -1,0 +1,75 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.menu-p{
+    background-color: rgb(255, 208, 0);
+}
+
+.menu-p ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-p ul li{
+    display: inline;
+
+}
+
+.menu-p ul li a{
+    color: rgb(0, 0, 0);
+    padding: 20px 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+.menu-p ul li a:hover{
+    background-color:  rgb(10, 19, 27);
+    color: #FFF;
+
+}
+
+section{
+    width: 100%;
+    min-height: 800px;
+    display: inline-block;
+}
+
+section#sobre{
+    background-color: rgb(245, 245, 228);
+}
+
+section#historico-profissional{
+    
+}
+
+section#contato{
+    background-color:  rgb(245, 245, 228);
+}
+
+.rodape{
+    width: 100%;
+    min-height: 150px;
+    background-color: rgb(255, 208, 0);
+    bottom: 0;
+    position:absolute;
+}
+
+.rodape p {
+    text-align: center;
+    margin: auto;
+}
+
+#midias-sociais a figure img
+{
+    width: 50px;
+    height: 50px;
+}
