@@ -108,7 +108,6 @@ section#sobre{
 
 section#profissional .cargos{
     display: grid;
-    background-color: aqua;
     grid-template-columns: repeat(2, auto);
     justify-content: space-around;
 }
